@@ -1,0 +1,43 @@
+<!DOCTYPE=html>
+<html>
+  <head>
+    <title>GYMeet</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="logo">GYMeet</div>
+        <nav>
+          <ul>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="profile.html" class="selected">Profile</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section>
+        <div id="content-box">
+          <div id="page-title">Account Settings</div>
+            <form id="profile" action="index.html" method="post">
+              <label for="username">Username</label>
+              <input type="text" name="user_name" placeholder="Username" id="username"><br>
+              <label for="email">Email</label>
+              <input type="email" name="user_email" placeholder="Email" id="email"><br>
+              <label for="password">Password</label>
+              <input type="password" name="user_password" placeholder="Password" id="password"><br>
+              <input type="submit" name="submit" value="Submit" class="button">
+          </form>
+        </div>
+      </section>
+
+      <footer>
+      <p>&copy; 2015 GYMeet</p>
+      </footer>
+    </div>
+  </body>
+</html>
